@@ -1,5 +1,4 @@
-import java.util.File;
-import java.util.Scanner;
+import java.util.*;
 
 public class hospital {
     private int[][][] storage;

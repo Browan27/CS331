@@ -3,7 +3,7 @@ import java.io.PrintWriter;
 import java.io.File;
 import java.util.Random;
 
-public class hospital {
+public class hospitalMaker {
     
     private static String fileName;
 
