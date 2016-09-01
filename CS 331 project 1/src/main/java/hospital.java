@@ -5,6 +5,7 @@ public class hospital {
     
     public int fileReader() {
         
+        return 0;
     }
     
     public void arraySet(int x, int y, int z, int a) {
@@ -13,6 +14,7 @@ public class hospital {
     
     public int calculateAverage() {
         
+        return 0;
     }
     
     public static void main(String[] args) {
