@@ -34,10 +34,20 @@ public class hospitalTest {
     
     @Test
     public void calculateArrayAverage() {
+        int[] array = new int[24];
         for(int i = 0; i < 24; i++) {
-            h.addToStorage(i+1);
+            array[i] = i+1;
         }
-        assertEquals(1, h.returnDayCount());
+        assertEquals(12, h.calculateAverageBasic(array));
+    }
+    
+    @Test
+    public void resetTest() {
+        assertEquals(0, h.returnHourCount());
+        h.addToStorage(4);
+        assertEquals(1, h.returnHourCount());
+        assertEquals(4, h.returnStorageLast());
+        h.reset();
         assertEquals(0, h.returnHourCount());
     }
 }
